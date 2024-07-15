@@ -3,9 +3,11 @@ using UnityEngine;
 public class PlayAnimationInteraction : InteractableObject
 {
     public Animator animator;
+
+    private bool _isOpen;
     public override void TriggerInteraction()
     {
-        if (isOpen)
+        if (_isOpen)
         {
             TriggerClosingAnimation();
         }
@@ -18,12 +20,12 @@ public class PlayAnimationInteraction : InteractableObject
     public override void TriggerClosingAnimation()
     {
         animator.SetBool("isOpen", false);
-        isOpen = false;
+        _isOpen = false;
     }
 
     public override void TriggerOpenAnimation()
     {
         animator.SetBool("isOpen", true);
-        isOpen = true;
+        _isOpen = true;
     }
 }

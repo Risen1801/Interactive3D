@@ -11,27 +11,30 @@ public class PlaySoundInteraction : InteractableObject
         audioSource.playOnAwake = false;
     }
 
-    public override void TriggerClosingAnimation()
+
+    public override void TriggerInteraction()
     {
-        if(audioSource.isPlaying)
+        if (audioSource.isPlaying)
         {
             //audioSource.Pause();
             audioSource.Stop();
+            Debug.Log("Audio gestoppt.");
         }
 
         else
         {
-            audioSource.Play();
+            audioSource.PlayOneShot(audioClip);
+            Debug.Log("Audio wird abgespielt: " + audioClip.name);
         }
-    }
-
-    public override void TriggerInteraction()
-    {
-        
     }
 
     public override void TriggerOpenAnimation()
     {
         
+    }    
+    
+    public override void TriggerClosingAnimation()
+    {
+
     }
 }

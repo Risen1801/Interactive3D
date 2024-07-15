@@ -9,7 +9,7 @@ public abstract class InteractableObject : MonoBehaviour
     public string commandText;
 
     // Bool to check for animation
-    public bool isOpen;
+    //public bool _isOpen;
 
     // Instruction to Trigger
     public abstract void TriggerInteraction();
