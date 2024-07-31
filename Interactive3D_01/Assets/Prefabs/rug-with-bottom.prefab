@@ -50,7 +50,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7029948723529949830, guid: b9f77ee04cedd9142a95bc496588a576, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 125
+      value: 124
       objectReference: {fileID: 0}
     - target: {fileID: 900771268482799482, guid: b9f77ee04cedd9142a95bc496588a576, type: 3}
       propertyPath: m_LocalRotation.w
@@ -82,7 +82,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b9f77ee04cedd9142a95bc496588a576, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 125
+      value: 124
       objectReference: {fileID: 0}
     - target: {fileID: 2911891132241190056, guid: b9f77ee04cedd9142a95bc496588a576, type: 3}
       propertyPath: m_IsActive
@@ -90,7 +90,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2911891132241190056, guid: b9f77ee04cedd9142a95bc496588a576, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 125
+      value: 124
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

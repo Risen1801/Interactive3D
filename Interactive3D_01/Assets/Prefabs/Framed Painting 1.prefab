@@ -50,7 +50,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -3111565609762313623, guid: f007ecb7f09106348ba4b37862c2a2ea, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 125
+      value: 124
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f007ecb7f09106348ba4b37862c2a2ea, type: 3}
       propertyPath: m_Name
@@ -58,11 +58,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f007ecb7f09106348ba4b37862c2a2ea, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 125
+      value: 124
       objectReference: {fileID: 0}
     - target: {fileID: 6433097612276984978, guid: f007ecb7f09106348ba4b37862c2a2ea, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 125
+      value: 124
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
